@@ -7,7 +7,7 @@
     <style>
         body{
             height: 95vh;
-            background-image: linear-gradient(to top, red, orange);
+            background-image: linear-gradient(to top, rgb(0, 255, 234), rgb(0, 174, 255));
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: center;
         }
@@ -28,9 +28,12 @@
     <h1>Olá,Mundo!!!</h1>
     <p>Já me livrei da maldição...</p>
     <script>
-        window.alert('MINHA PRIMEIRA MENSAGEM!!!') //janela com mensagem
-        window.confirm('Está gostando de JavaScript') //vai abrir janela com botão ok e cancelar....
-        window.prompt('Qual é o seu nome ??') //Vai perguntar o nome....
+        //aqui está sendo usado a conversão para numero, pois o que for digitado seria considerado uma string
+        //
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} da o valor  ${s}`)
     </script>
 </body>
 </html>
