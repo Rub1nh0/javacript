@@ -1,0 +1,9 @@
+@charset "UTF-8";
+ div#area{
+    background-color: rgba(0, 58, 36, 0.863);
+    color: whitesmoke;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+ }
