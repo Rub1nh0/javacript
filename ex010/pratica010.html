@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando JS</title>
+</head>
+<body>
+    <h1>Descobrindo sua Nascionalidade</h1>
+    Digite o País que você nasceu: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="verificar" onclick="enviar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function enviar(){
+            var txtp = document.querySelector('input#txtp')
+            var res = document.querySelector('div#res')
+            var p = 
+            res.innerHTML = `A você nasceu no <strong>${res}</strong>`
+        }
+    </script>
+</body>
+</html>
